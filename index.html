@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SamPro Media Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <video autoplay muted loop class="hero-bg">
+      <source src="assets/bg-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Welcome to SamPro Media</h1>
+      <p>Photography | Videography | Web Development | Graphic Design | Programming</p>
+      <a href="#about" class="hero-btn">Let’s Explore</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>A Glimpse Into My World</h2>
+    <div class="about-cards">
+      <div class="card">
+        <h3>Photographer & Videographer</h3>
+        <p>Crafting timeless visuals for every occasion.</p>
+      </div>
+      <div class="card">
+        <h3>Graphic Designer</h3>
+        <p>Bringing brands to life with vibrant designs.</p>
+      </div>
+      <div class="card">
+        <h3>Full-Stack Developer</h3>
+        <p>
+          <strong>Front-End:</strong> Crafting user-friendly designs.  
+          <strong>Back-End:</strong> Building robust and scalable systems.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>What I Offer</h2>
+    <div class="services-grid">
+      <div class="service-item">Photography</div>
+      <div class="service-item">Videography</div>
+      <div class="service-item">Web Development</div>
+      <div class="service-item">Graphic Design</div>
+      <div class="service-item">Programming</div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Creative and Technical Masterpieces</h2>
+    <div class="portfolio-grid">
+      <img src="assets/portfolio/image1.jpg" alt="Portfolio Item">
+      <img src="assets/portfolio/image2.jpg" alt="Portfolio Item">
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
